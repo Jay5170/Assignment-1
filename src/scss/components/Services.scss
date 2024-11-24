@@ -1,0 +1,95 @@
+@use "../base/base";
+
+.services {
+    margin-top: 14.333vh;
+}
+
+.sr_heading {
+    @include base.heading;
+    font-size: 3vw;
+    line-height: 3.555vw;
+}
+
+.sr_slider {
+    width: 14.875vw;
+}
+
+.sr_slider_line {
+    width: 14.875vw;
+    height: 2px;
+    margin-top: 2.5px;
+    z-index: -1;
+    position: absolute;
+    background-color: #A9A9A9;
+}
+
+.sr_slider_body {
+    width: 3.875vw;
+    height: 7px;
+    border-radius: 4px;
+    background-color: #A9A9A9;
+}
+
+.sr_eg,
+.sr_cm,
+.sr_fc,
+.sr_cn,
+.sr_tm {
+    margin: 41px 244px 0 220px;
+    width: 71vw;
+}
+
+.sr_eg_1,
+.sr_fc_1,
+.sr_tm_1 {
+    width: 33.063vw;
+    margin-top: 52px;
+}
+
+.sr_eg_heading,
+.sr_fc_heading,
+.sr_tm_heading {
+    @include base.heading;
+    font-size: 2.625vw;
+    line-height: 3.111vw;
+    color: #2c2c2c;
+    text-align: end;
+}
+
+.sr_eg_text,
+.sr_fc_text,
+.sr_tm_text {
+    @include base.description;
+    font-size: 1vw;
+    line-height: 1.475vw;
+    text-align: end;
+}
+
+.sr_cm_1,
+.sr_cn_1 {
+    width: 33.063vw;
+    margin-top: 52px;
+}
+
+.sr_cm_heading,
+.sr_cn_heading {
+    @include base.heading;
+    font-size: 2.625vw;
+    line-height: 3.111vw;
+    color: #2c2c2c;
+    text-align: start;
+}
+
+.sr_cm_text,
+.sr_cn_text {
+    @include base.description;
+    font-size: 1vw;
+    line-height: 1.475vw;
+    text-align: start;
+}
+
+@media (max-width: 1200px) {
+    .services {
+        margin-top: 6vw;
+    }
+}

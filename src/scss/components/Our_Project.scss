@@ -1,0 +1,60 @@
+@use "../base/base";
+
+
+.our_project{
+    margin: 13.222vh 14.688vw 0 14.688vw;
+    width: 70.625vw;
+}
+
+.op_heading{
+    @include base.heading;
+    font-size: 3vw;
+    line-height: 3.555vw;
+}
+
+.op_slider{
+    width: 22.625vw;
+}
+
+.op_slider_line{
+    width: 22.625vw;
+    height: 2px;
+    margin-top: 2.5px;
+    z-index: -1;
+    position: absolute;
+    background-color: #A9A9A9;   
+}
+
+.op_slider_body{
+    width: 6.438vw;
+    height: 7px;
+    border-radius: 4px;
+    background-color: #A9A9A9;
+}
+
+.op_img_con{
+    margin-top: 1.688vw;
+}
+
+.op_img_1{
+    width: 34.625vw;
+    height: 74.111vh;
+}
+
+.op_img_2, .op_img_3{
+    width: 34.625vw;
+    height: 35.778vh;
+}
+
+.op_img_3{
+    margin-top: 2.556vh;
+}
+
+@media (max-width: 1200px){
+    .op_img_1{
+        height: 46.25vw;
+    }
+    .op_img_2, .op_img_3{
+        height: 22vw;
+    }
+}

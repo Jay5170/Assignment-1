@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --font-family: "Rubik", serif;
+}
+
+//This font css for 500 font-weight
+
+@mixin heading() {
+  font-weight: 500;
+  color: #000000;
+}
+
+//This font css for 400 font-weight
+
+@mixin description() {
+  font-weight: 400;
+  color: #2c2c2c;
+}
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.body{
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--background);
+  font-family: var(--font-family);
+}

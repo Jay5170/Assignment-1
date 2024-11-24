@@ -1,0 +1,35 @@
+.navbar{
+    width: 100%;
+    padding: 0.625vw 8.125vw;
+
+}
+.logo{
+    width: 18.438vw;
+    height: 5.313vw;
+    cursor: pointer;
+}
+
+.navbar-menu{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.125vw;
+    line-height: 1.318vw;
+    width: 29.5vw;
+    height: 1.313vw;
+}
+
+.navbar-menu li{
+    cursor: pointer;
+}
+
+.re_nav{
+    margin-top: 50vw;
+    margin-left: 25vw;
+}
+
+@media (max-width: 1200px) {
+    .navbar-menu{   
+        font-size: 1.5vw;
+        width: 35vw;
+    }
+}    

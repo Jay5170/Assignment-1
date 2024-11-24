@@ -1,0 +1,83 @@
+@use "../base/base";
+
+
+.our_clients {
+    margin: 14.222vh 15.938vw 0 14.563vw;
+    width: 69.5vw;
+    height: 50.222vh;
+}
+
+.oc_heading {
+    @include base.heading;
+    font-size: 3vw;
+    line-height: 3.555vw;
+}
+
+.oc_slider {
+    width: 19.375vw;
+}
+
+.oc_slider_line {
+    width: 19.375vw;
+    height: 2px;
+    margin-top: 2.5px;
+    z-index: -1;
+    position: absolute;
+    background-color: #A9A9A9;
+}
+
+.oc_slider_body {
+    width: 6.438vw;
+    height: 7px;
+    border-radius: 4px;
+    background-color: #A9A9A9;
+}
+
+.cl_logo_1 {
+    height: 17.889vh;
+    margin-bottom: 65px;
+}
+
+.clients_1 {
+    width: 13.25vw;
+}
+
+.clients_2 {
+    width: 8.063vw;
+    height: 14.556vh;
+}
+
+.clients_3 {
+    width: 13.875vw;
+    height: 6.889vh;
+}
+
+.clients_4 {
+    width: 8.938vw;
+    height: 11.889vh;
+}
+
+.clients_5 {
+    width: 10.188vw;
+    height: 7vh;
+}
+
+.clients_6 {
+    width: 11.563vw;
+    height: 11.778vh;
+}
+
+.clients_7 {
+    width: 16.75vw;
+    height: 13.333vh;
+}
+
+.clients_8 {
+    width: 15.375vw;
+    height: 11vh;
+}
+
+.clients_9 {
+    width: 15.188vw;
+    height: 6.444vh;
+}

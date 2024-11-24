@@ -1,0 +1,47 @@
+@use "../base/base";
+
+.our_team {
+    margin: 11.375vw 15.25vw 0 15.25vw;
+    width: 69.5vw;
+}
+
+.ot_heading {
+    @include base.heading;
+    font-size: 3vw;
+    line-height: 3.555vw;
+}
+
+.ot_slider {
+    width: 15.063vw;
+}
+
+.ot_slider_line {
+    width: 15.063vw;
+    height: 2px;
+    margin-top: 2.5px;
+    z-index: -1;
+    position: absolute;
+    background-color: #A9A9A9;
+}
+
+.ot_slider_body {
+    width: 6.313vw;
+    height: 7px;
+    border-radius: 4px;
+    background-color: #A9A9A9;
+}
+
+.ot_cards {
+    margin-top: 1.938vw;
+}
+
+.card_img {
+    margin-bottom: 3.313vw;
+}
+
+.card_text {
+    @include base.description;
+    font-size: 1.375vw;
+    line-height: 1.629vw;
+    color: #000;
+}

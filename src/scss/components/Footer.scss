@@ -1,0 +1,38 @@
+@use "../base/base";
+
+
+.footer {
+    width: 83.75vw;
+    height: 23.111vh;
+    background-color: #BFDBFF;
+    margin: 8.333vh 8.125vw 0 8.125vw;
+}
+
+.footer_icon {
+    height: 10.333vh;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.footer_text {
+    width: 69.688vw;
+}
+
+.footer_text div h5 {
+    font-weight: 700;
+    font-size: 1vw;
+    line-height: 3.929vh;
+}
+
+.footer_text div p {
+    @include base.description;
+    font-size: 0.875vw;
+    line-height: 3.438vh;
+}
+
+.copy_right {
+    margin: 22px 0 22px 0;
+    @include base.description;
+    font-size: 0.875vw;
+    line-height: 1.843vh;
+}

@@ -1,0 +1,74 @@
+@use "../base/base";
+
+//about us section
+
+.about_us_con{
+    margin-top: 46.222vh;
+}
+
+//This is slider
+
+.slider{
+    width: 14.875vw;
+}
+
+.slider_line{
+    width: 14.875vw;
+    height: 2px;
+    margin-top: 2.5px;
+    z-index: -1;
+    position: absolute;
+    background-color: #A9A9A9;   
+}
+
+.slider_body{
+    width: 9.75vw;
+    height: 7px;
+    border-radius: 4px;
+    background-color: #A9A9A9;
+}
+
+.ab_img{
+    width: 38.25vw;
+    max-height: 45.333vh;
+    margin-top: 10.111vh;
+}
+
+.ab_2{
+    width: 41.125vw;
+}
+
+.ab_heading{
+    @include base.heading;
+    width: 28.688vw;
+    font-size: 3vw;
+    line-height: 3.555vw;
+}
+
+.ab_text p{
+    @include base.description;
+    width: 34vw;
+    margin-top: 1.563vw;
+    font-size: 1.125vw;
+    line-height: 1.659vw;
+}
+
+.eg_heading, .cm_heading{
+    @include base.heading;
+    margin: 25px 0 15px 0;
+    font-size: 1.5vw;
+}
+
+.eg_text, .cm_text{
+    width: 17.063vw;
+    @include base.description;
+    margin-top: 1.563vw;
+    font-size: 1.125vw;
+    line-height: 1.659vw;
+}
+
+@media (max-width : 1200px){
+    .about_us_con{
+        margin-top: 25vw;
+    }
+}

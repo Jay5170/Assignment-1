@@ -1,0 +1,29 @@
+@use "../base/base";
+
+//hero main container
+
+.hero{
+    width: 100%;
+    padding-top: 161px;
+    padding-left: 57.875vw;
+
+}
+
+//hero heading
+
+.hero_heading{
+    @include base.heading;
+    width: 28.688vw;
+    font-size: 3.5vw;
+    line-height: 4.147vw;
+}
+
+//hero description
+
+.hero_description{
+    @include base.description;
+    width: 34vw;
+    margin-top: 1.563vw;
+    font-size: 1.125vw;
+    line-height: 1.333vw;
+}
